@@ -39,36 +39,3 @@ This project provides a comprehensive analysis of over 190,000 user reviews for 
     
 4.  **Value in Neutral Reviews:** A significant portion of neutral reviews are not just indifferent but contain valuable feedback like **Feature Requests** and **Questions** about the app's functionality.
 
-## Visualizations
-
-Below are some key visualizations from the analysis:
-
-**Sentiment Distribution of Reviews**
-![Sentiment Distribution](https://i.imgur.com/K3VwR3k.png)
-*This chart shows the breakdown of reviews into positive, neutral, and negative categories.*
-
-**Categorization of Negative Feedback**
-![Negative Categories](https://i.imgur.com/mOQxR8a.png)
-*This chart highlights the primary reasons for user dissatisfaction, with Accuracy being the most cited issue.*
-
-**Sentiment Trends Over Time**
-![Sentiment Trends](https://i.imgur.com/1GjSg8E.png)
-*This plot tracks the volume of positive, neutral, and negative reviews on a monthly basis.*
-
-## Setup and Execution
-
-To run this analysis on your local machine, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/chatgpt-review-analysis.git](https://github.com/your-username/chatgpt-review-analysis.git)
-    cd chatgpt-review-analysis
-    ```
-
-2.  **Install the required libraries:**
-    ```bash
-    pip install pandas matplotlib seaborn textblob
-    ```
-
-3.  **Run the Jupyter Notebook:**
-    Open and run the `ChatGPT_ANALYSIS.ipynb` file in a Jupyter environment. The notebook is structured to perform the analysis step-by-step, from data cleaning to visualization.
